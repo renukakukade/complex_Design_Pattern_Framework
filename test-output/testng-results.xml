@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-29T14:04:11 IST" name="Default suite" finished-at="2022-08-29T14:13:19 IST" duration-ms="548085">
+    <groups>
+    </groups>
+    <test started-at="2022-08-29T14:04:11 IST" name="Default test" finished-at="2022-08-29T14:13:19 IST" duration-ms="548085">
+      <class name="nursingSystem_Page_Tests.Personal_Details_Test">
+        <test-method is-config="true" signature="beforeSuiteStart()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:04:11 IST" name="beforeSuiteStart" finished-at="2022-08-29T14:04:11 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteStart -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:04:11 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:04:17 IST" duration-ms="5450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC1() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC1()[pri:1, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:04:17 IST" name="TC1" description="user should enter patient name, allowing characters only" finished-at="2022-08-29T14:04:22 IST" duration-ms="5141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:04:22 IST" name="afterEachTestCase" finished-at="2022-08-29T14:04:22 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:04:22 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:04:23 IST" duration-ms="1427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC2() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC2()[pri:2, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:04:23 IST" name="TC2" description="user should enter patient name, numbers  are not allowed" finished-at="2022-08-29T14:04:27 IST" duration-ms="3352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:04:27 IST" name="afterEachTestCase" finished-at="2022-08-29T14:04:27 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:04:27 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:04:28 IST" duration-ms="1850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC3() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC3()[pri:3, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:04:28 IST" name="TC3" description="user should enter patient name, special characters are not allowed except space" finished-at="2022-08-29T14:04:32 IST" duration-ms="3375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:04:32 IST" name="afterEachTestCase" finished-at="2022-08-29T14:04:32 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:04:32 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:04:34 IST" duration-ms="1930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC4() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC4()[pri:4, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:04:34 IST" name="TC4" description="user should enter patient Age,only numbers are allowed" finished-at="2022-08-29T14:04:38 IST" duration-ms="4466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:04:38 IST" name="afterEachTestCase" finished-at="2022-08-29T14:04:38 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:04:38 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:05:00 IST" duration-ms="21552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC5() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC5()[pri:5, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:05:00 IST" name="TC5" description="user should enter patient Age, characters are not allowed" finished-at="2022-08-29T14:05:27 IST" duration-ms="27631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC5 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:05:27 IST" name="afterEachTestCase" finished-at="2022-08-29T14:05:27 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:05:27 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:05:33 IST" duration-ms="5112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC6() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC6()[pri:6, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:05:33 IST" name="TC6" description="user should enter patient Age, no special characters are allowed" finished-at="2022-08-29T14:05:38 IST" duration-ms="5147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC6 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:05:38 IST" name="afterEachTestCase" finished-at="2022-08-29T14:05:38 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:05:38 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:05:40 IST" duration-ms="2177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC7() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC7()[pri:7, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:05:40 IST" name="TC7" description="user should enter patient DOB, numbers are allowed" finished-at="2022-08-29T14:05:59 IST" duration-ms="19096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC7 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:05:59 IST" name="afterEachTestCase" finished-at="2022-08-29T14:05:59 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:05:59 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:06:29 IST" duration-ms="30015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC8() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC8()[pri:8, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:06:29 IST" name="TC8" description="user should enter patient DOB, characters are not allowed" finished-at="2022-08-29T14:06:36 IST" duration-ms="6714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC8 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:06:36 IST" name="afterEachTestCase" finished-at="2022-08-29T14:06:36 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:06:36 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:06:38 IST" duration-ms="1887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC9() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC9()[pri:9, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:06:38 IST" name="TC9" description="user should enter patient DOB, Special characters are not allowed Except / " finished-at="2022-08-29T14:06:41 IST" duration-ms="3420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC9 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:06:41 IST" name="afterEachTestCase" finished-at="2022-08-29T14:06:41 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:06:41 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:06:44 IST" duration-ms="2442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC10() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC10()[pri:10, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:06:44 IST" name="TC10" description="user should enter patient DOB, date format should be DD/MM/YYYY" finished-at="2022-08-29T14:06:47 IST" duration-ms="3249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:06:47 IST" name="afterEachTestCase" finished-at="2022-08-29T14:06:47 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:06:47 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:06:49 IST" duration-ms="2119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC11() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC11()[pri:11, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:06:49 IST" name="TC11" description="user should enter patient DOB, Past Dates should be allowed" finished-at="2022-08-29T14:06:53 IST" duration-ms="4074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC11 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:06:53 IST" name="afterEachTestCase" finished-at="2022-08-29T14:06:53 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:06:53 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:07:27 IST" duration-ms="33638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC12() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC12()[pri:12, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:07:27 IST" name="TC12" description="user should enter patient Age, Future Dates should not allowed" finished-at="2022-08-29T14:07:36 IST" duration-ms="9681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC12 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:07:36 IST" name="afterEachTestCase" finished-at="2022-08-29T14:07:36 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:07:36 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:07:43 IST" duration-ms="6650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC13() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC13()[pri:13, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:07:43 IST" name="TC13" description="user should enter patient Age, User should be able to select date from calender" finished-at="2022-08-29T14:07:49 IST" duration-ms="5955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:07:49 IST" name="afterEachTestCase" finished-at="2022-08-29T14:07:49 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:07:49 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:08:09 IST" duration-ms="20253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC24() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC24()[pri:24, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:08:09 IST" name="TC24" description="user should select patient Gender , User should be able to select gender from dropdown" finished-at="2022-08-29T14:08:29 IST" duration-ms="19815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC24 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:08:29 IST" name="afterEachTestCase" finished-at="2022-08-29T14:08:29 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:08:29 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:08:31 IST" duration-ms="2241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC25() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC25()[pri:25, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:08:31 IST" name="TC25" description="user should select patient Gender , User should be able to select only one gender from dropdown" finished-at="2022-08-29T14:08:36 IST" duration-ms="4331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC25 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:08:36 IST" name="afterEachTestCase" finished-at="2022-08-29T14:08:36 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:08:36 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:08:38 IST" duration-ms="1983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC26() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC26()[pri:26, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:08:38 IST" name="TC26" description="user should select patient Gender , verify the field is mandatory" finished-at="2022-08-29T14:08:42 IST" duration-ms="4700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC26 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:08:42 IST" name="afterEachTestCase" finished-at="2022-08-29T14:08:42 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:08:42 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:09:05 IST" duration-ms="22839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC27() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC27()[pri:27, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:09:05 IST" name="TC27" description="user should select patient Gender , User should be able to select religion from dropdown" finished-at="2022-08-29T14:09:26 IST" duration-ms="21015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC27 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:09:26 IST" name="afterEachTestCase" finished-at="2022-08-29T14:09:26 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:09:26 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:09:37 IST" duration-ms="10431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC28() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC28()[pri:28, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:09:37 IST" name="TC28" description="user should enter nationality " finished-at="2022-08-29T14:09:50 IST" duration-ms="13650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC28 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:09:50 IST" name="afterEachTestCase" finished-at="2022-08-29T14:09:50 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:09:50 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:10:01 IST" duration-ms="10480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC30() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC30()[pri:30, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:10:01 IST" name="TC30" description="user should enter nationality " finished-at="2022-08-29T14:10:05 IST" duration-ms="4365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC30 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:10:05 IST" name="afterEachTestCase" finished-at="2022-08-29T14:10:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:10:05 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:10:38 IST" duration-ms="33285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC31() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC31()[pri:31, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:10:38 IST" name="TC31" description="user is able to enter gardian " finished-at="2022-08-29T14:10:44 IST" duration-ms="5991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC31 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:10:44 IST" name="afterEachTestCase" finished-at="2022-08-29T14:10:44 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:10:44 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:10:46 IST" duration-ms="2147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC32() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC32()[pri:32, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:10:46 IST" name="TC32" description="user is able to add gardian, numbers are not allowed " finished-at="2022-08-29T14:10:52 IST" duration-ms="5968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC32 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:10:52 IST" name="afterEachTestCase" finished-at="2022-08-29T14:10:52 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:10:52 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:10:55 IST" duration-ms="2732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC33() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC33()[pri:33, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:10:55 IST" name="TC33" description="user is able to add relation with gardian" finished-at="2022-08-29T14:11:00 IST" duration-ms="4835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC33 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:11:00 IST" name="afterEachTestCase" finished-at="2022-08-29T14:11:00 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:11:00 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:11:34 IST" duration-ms="33597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC34() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC34()[pri:34, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:11:34 IST" name="TC34" description="user is able to add relation with gardian, numbers are not allowed " finished-at="2022-08-29T14:11:51 IST" duration-ms="17438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC34 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:11:51 IST" name="afterEachTestCase" finished-at="2022-08-29T14:11:51 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:11:51 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:11:53 IST" duration-ms="2049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC35() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC35()[pri:35, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:11:53 IST" name="TC35" description="user is able to select marital status drom dropdown, select it from given options only " finished-at="2022-08-29T14:11:58 IST" duration-ms="5087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC35 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:11:58 IST" name="afterEachTestCase" finished-at="2022-08-29T14:11:58 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:11:58 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:12:01 IST" duration-ms="2735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC36() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC36()[pri:36, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:12:01 IST" name="TC36" description="user is able to select marital status from dropdown" finished-at="2022-08-29T14:12:06 IST" duration-ms="5089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC36 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:12:06 IST" name="afterEachTestCase" finished-at="2022-08-29T14:12:06 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method is-config="true" signature="beforeEachTestCase(java.lang.reflect.Method)[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:12:06 IST" name="beforeEachTestCase" finished-at="2022-08-29T14:13:15 IST" duration-ms="68960" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nursingSystem_Page_Tests.Personal_Details_Test.TC37() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method signature="TC37()[pri:37, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:13:15 IST" name="TC37" description="user is able to click on next button" finished-at="2022-08-29T14:13:19 IST" duration-ms="4314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC37 -->
+        <test-method is-config="true" signature="afterEachTestCase()[pri:0, instance:nursingSystem_Page_Tests.Personal_Details_Test@1b11171f]" started-at="2022-08-29T14:13:19 IST" name="afterEachTestCase" finished-at="2022-08-29T14:13:19 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+      </class> <!-- nursingSystem_Page_Tests.Personal_Details_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

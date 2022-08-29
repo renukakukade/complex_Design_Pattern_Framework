@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\HP\AppData\Local\Temp\testng-eclipse-1805633269\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC1">TC1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC10">TC10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC11">TC11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC12">TC12</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC13">TC13</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC2">TC2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC24">TC24</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC25">TC25</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC26">TC26</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC27">TC27</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC28">TC28</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC3">TC3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC30">TC30</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC31">TC31</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC32">TC32</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC33">TC33</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC34">TC34</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC35">TC35</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC36">TC36</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC37">TC37</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC4">TC4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC5">TC5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC6">TC6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC7">TC7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC8">TC8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="nursingSystem_Page_Tests.Personal_Details_Test" class="method navigator-link" hash-for-method="TC9">TC9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">nursingSystem_Page_Tests.Personal_Details_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC1">
+                  </a> <!-- TC1 -->
+                  <span class="method-name">TC1</span>
+                  <em>
+(user should enter patient name, allowing characters only)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC10">
+                  </a> <!-- TC10 -->
+                  <span class="method-name">TC10</span>
+                  <em>
+(user should enter patient DOB, date format should be DD/MM/YYYY)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC11">
+                  </a> <!-- TC11 -->
+                  <span class="method-name">TC11</span>
+                  <em>
+(user should enter patient DOB, Past Dates should be allowed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC12">
+                  </a> <!-- TC12 -->
+                  <span class="method-name">TC12</span>
+                  <em>
+(user should enter patient Age, Future Dates should not allowed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC13">
+                  </a> <!-- TC13 -->
+                  <span class="method-name">TC13</span>
+                  <em>
+(user should enter patient Age, User should be able to select date from calender)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC2">
+                  </a> <!-- TC2 -->
+                  <span class="method-name">TC2</span>
+                  <em>
+(user should enter patient name, numbers  are not allowed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC24">
+                  </a> <!-- TC24 -->
+                  <span class="method-name">TC24</span>
+                  <em>
+(user should select patient Gender , User should be able to select gender from dropdown)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC25">
+                  </a> <!-- TC25 -->
+                  <span class="method-name">TC25</span>
+                  <em>
+(user should select patient Gender , User should be able to select only one gender from dropdown)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC26">
+                  </a> <!-- TC26 -->
+                  <span class="method-name">TC26</span>
+                  <em>
+(user should select patient Gender , verify the field is mandatory)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC27">
+                  </a> <!-- TC27 -->
+                  <span class="method-name">TC27</span>
+                  <em>
+(user should select patient Gender , User should be able to select religion from dropdown)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC28">
+                  </a> <!-- TC28 -->
+                  <span class="method-name">TC28</span>
+                  <em>
+(user should enter nationality )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC3">
+                  </a> <!-- TC3 -->
+                  <span class="method-name">TC3</span>
+                  <em>
+(user should enter patient name, special characters are not allowed except space)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC30">
+                  </a> <!-- TC30 -->
+                  <span class="method-name">TC30</span>
+                  <em>
+(user should enter nationality )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC31">
+                  </a> <!-- TC31 -->
+                  <span class="method-name">TC31</span>
+                  <em>
+(user is able to enter gardian )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC32">
+                  </a> <!-- TC32 -->
+                  <span class="method-name">TC32</span>
+                  <em>
+(user is able to add gardian, numbers are not allowed )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC33">
+                  </a> <!-- TC33 -->
+                  <span class="method-name">TC33</span>
+                  <em>
+(user is able to add relation with gardian)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC34">
+                  </a> <!-- TC34 -->
+                  <span class="method-name">TC34</span>
+                  <em>
+(user is able to add relation with gardian, numbers are not allowed )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC35">
+                  </a> <!-- TC35 -->
+                  <span class="method-name">TC35</span>
+                  <em>
+(user is able to select marital status drom dropdown, select it from given options only )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC36">
+                  </a> <!-- TC36 -->
+                  <span class="method-name">TC36</span>
+                  <em>
+(user is able to select marital status from dropdown)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC37">
+                  </a> <!-- TC37 -->
+                  <span class="method-name">TC37</span>
+                  <em>
+(user is able to click on next button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC4">
+                  </a> <!-- TC4 -->
+                  <span class="method-name">TC4</span>
+                  <em>
+(user should enter patient Age,only numbers are allowed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC5">
+                  </a> <!-- TC5 -->
+                  <span class="method-name">TC5</span>
+                  <em>
+(user should enter patient Age, characters are not allowed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC6">
+                  </a> <!-- TC6 -->
+                  <span class="method-name">TC6</span>
+                  <em>
+(user should enter patient Age, no special characters are allowed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC7">
+                  </a> <!-- TC7 -->
+                  <span class="method-name">TC7</span>
+                  <em>
+(user should enter patient DOB, numbers are allowed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC8">
+                  </a> <!-- TC8 -->
+                  <span class="method-name">TC8</span>
+                  <em>
+(user should enter patient DOB, characters are not allowed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC9">
+                  </a> <!-- TC9 -->
+                  <span class="method-name">TC9</span>
+                  <em>
+(user should enter patient DOB, Special characters are not allowed Except / )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\HP\AppData\Local\Temp\testng-eclipse-1805633269\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;nursingSystem_Page_Tests.Personal_Details_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC5')
+data.setCell(0, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(0, 3, 27631);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC27')
+data.setCell(1, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(1, 3, 21015);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC24')
+data.setCell(2, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(2, 3, 19815);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC7')
+data.setCell(3, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(3, 3, 19096);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC34')
+data.setCell(4, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(4, 3, 17438);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC28')
+data.setCell(5, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(5, 3, 13650);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC12')
+data.setCell(6, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(6, 3, 9681);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC8')
+data.setCell(7, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(7, 3, 6714);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC31')
+data.setCell(8, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(8, 3, 5991);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC32')
+data.setCell(9, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(9, 3, 5968);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC13')
+data.setCell(10, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(10, 3, 5955);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TC6')
+data.setCell(11, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(11, 3, 5147);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TC1')
+data.setCell(12, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(12, 3, 5141);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TC36')
+data.setCell(13, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(13, 3, 5089);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TC35')
+data.setCell(14, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(14, 3, 5087);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TC33')
+data.setCell(15, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(15, 3, 4835);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TC26')
+data.setCell(16, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(16, 3, 4700);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TC4')
+data.setCell(17, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(17, 3, 4466);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TC30')
+data.setCell(18, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(18, 3, 4365);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TC25')
+data.setCell(19, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(19, 3, 4331);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TC37')
+data.setCell(20, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(20, 3, 4314);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TC11')
+data.setCell(21, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(21, 3, 4074);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TC9')
+data.setCell(22, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(22, 3, 3420);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'TC3')
+data.setCell(23, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(23, 3, 3375);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'TC2')
+data.setCell(24, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(24, 3, 3352);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'TC10')
+data.setCell(25, 2, 'nursingSystem_Page_Tests.Personal_Details_Test')
+data.setCell(25, 3, 3249);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">nursingSystem_Page_Tests.Personal_Details_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuiteStart</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC1() throws java.io.IOException)</span>
+                <span class="method-start">105 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC1</span>
+                <span class="method-start">5556 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">10699 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC2() throws java.io.IOException)</span>
+                <span class="method-start">10717 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC2</span>
+                <span class="method-start">12144 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">15498 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC3() throws java.io.IOException)</span>
+                <span class="method-start">15510 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC3</span>
+                <span class="method-start">17360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">20736 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC4() throws java.io.IOException)</span>
+                <span class="method-start">20751 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC4</span>
+                <span class="method-start">22681 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">27148 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC5() throws java.io.IOException)</span>
+                <span class="method-start">27155 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC5</span>
+                <span class="method-start">48707 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">76339 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC6() throws java.io.IOException)</span>
+                <span class="method-start">76345 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC6</span>
+                <span class="method-start">81457 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">86605 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC7() throws java.io.IOException)</span>
+                <span class="method-start">86609 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC7</span>
+                <span class="method-start">88786 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">107884 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC8() throws java.io.IOException)</span>
+                <span class="method-start">107888 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC8</span>
+                <span class="method-start">137903 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">144617 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC9() throws java.io.IOException)</span>
+                <span class="method-start">144622 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC9</span>
+                <span class="method-start">146509 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">149932 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC10() throws java.io.IOException)</span>
+                <span class="method-start">149935 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC10</span>
+                <span class="method-start">152377 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">155627 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC11() throws java.io.IOException)</span>
+                <span class="method-start">155633 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC11</span>
+                <span class="method-start">157752 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">161828 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC12() throws java.io.IOException)</span>
+                <span class="method-start">161834 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC12</span>
+                <span class="method-start">195472 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">205154 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC13() throws java.io.IOException)</span>
+                <span class="method-start">205157 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC13</span>
+                <span class="method-start">211807 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">217763 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC24() throws java.io.IOException)</span>
+                <span class="method-start">217766 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC24</span>
+                <span class="method-start">238019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">257834 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC25() throws java.io.IOException)</span>
+                <span class="method-start">257838 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC25</span>
+                <span class="method-start">260079 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">264411 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC26() throws java.io.IOException)</span>
+                <span class="method-start">264414 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC26</span>
+                <span class="method-start">266397 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">271100 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC27() throws java.io.IOException)</span>
+                <span class="method-start">271104 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC27</span>
+                <span class="method-start">293943 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">314959 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC28() throws java.io.IOException)</span>
+                <span class="method-start">314962 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC28</span>
+                <span class="method-start">325393 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">339044 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC30() throws java.io.IOException)</span>
+                <span class="method-start">339047 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC30</span>
+                <span class="method-start">349527 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">353893 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC31() throws java.io.IOException)</span>
+                <span class="method-start">353896 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC31</span>
+                <span class="method-start">387181 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">393173 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC32() throws java.io.IOException)</span>
+                <span class="method-start">393177 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC32</span>
+                <span class="method-start">395324 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">401292 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC33() throws java.io.IOException)</span>
+                <span class="method-start">401296 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC33</span>
+                <span class="method-start">404028 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">408865 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC34() throws java.io.IOException)</span>
+                <span class="method-start">408872 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC34</span>
+                <span class="method-start">442469 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">459907 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC35() throws java.io.IOException)</span>
+                <span class="method-start">459910 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC35</span>
+                <span class="method-start">461959 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">467047 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC36() throws java.io.IOException)</span>
+                <span class="method-start">467052 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC36</span>
+                <span class="method-start">469787 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">474878 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTestCase(public void nursingSystem_Page_Tests.Personal_Details_Test.TC37() throws java.io.IOException)</span>
+                <span class="method-start">474890 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC37</span>
+                <span class="method-start">543850 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestCase</span>
+                <span class="method-start">548164 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
